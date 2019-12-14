@@ -23,7 +23,7 @@ TEMPLATE = join_path(STATIC_DIR, "base_templates", "Untitled.xml")
 DROPDOWN_DEFAULTS = read_json_data(join_path(STATIC_DIR, "base_templates", "dropdowns_data.json"))
 
 
-class TestWrapperVie(View):
+class TestWrapperView(View):
 
     def get(self, request):
         """
